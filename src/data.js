@@ -39,7 +39,7 @@ export const featuredPortfolio = [
       img:  "projects/React-app/homepage.jpg"},
     {
       id: 2,
-      title: "Web Social Media App",
+      title: "Web Social Media App ",
       img: "projects/React-app/other_profile.jpg",
     },
     {
@@ -77,7 +77,7 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Drink Water",
+      title: "Drink Water Project",
       img:"projects/javascript/drink_water.jpg"
     },
     {
