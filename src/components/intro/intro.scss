@@ -1,0 +1,111 @@
+.intro {
+  background-image: url("https://wallpaperaccess.com/full/5651990.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+  
+  display: flex;
+
+  
+
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+
+    .imgContainer {
+      width: 630px;
+      height: 700px;
+      background-color: rgb(236, 214, 11);
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      float: right;
+
+      
+
+      img {
+        height: 90%;
+        width: 100%;
+
+       
+      }
+    }
+  }
+  .right {
+    flex: 0.5;
+    position: relative;
+
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+     
+
+      h1 {
+        font-size: 60px;
+        margin: 10px 0;
+        color: white;
+
+        
+      }
+      h2 {
+        font-size: 35px;
+        color: white;
+      }
+      h3 {
+        font-size: 30px;
+        color: white;
+        
+
+        span {
+          font-size: inherit;
+          color: white;
+        }
+
+        .ityped-cursor {
+          animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+          50%{
+              opacity: 2;
+          }
+          100%{
+              opacity: 0;
+          }
+      }
+        
+      }
+    }
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+      
+
+      img {
+        width: 60px;
+        height: 40px;
+        animation: arrowBlink 2s infinite;
+        background-color: #F0D290;
+        
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
+      }
+
+      
+    }
+  }
+}
